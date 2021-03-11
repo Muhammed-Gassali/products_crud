@@ -44,6 +44,7 @@ class EditDeleteCategory(APIView):
             data.save()
             return Response({"status":"updated successfully "})
         else:
+            
             return Response({"status":"unknown category"})
 
     def delete(self, request, id):
