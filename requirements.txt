@@ -1,5 +1,6 @@
 # dbms products
 # env products_operation  
+# git repo products_operation
 
 psycopg2==2.8.6
 Django==3.1.2
